@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", arial;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.main-fr {
+    height: 850px;
+    width: 490px;
+    /* background-color: #f1f2f3; */
+    padding: 50px;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+
+input,
+select {
+    height: 20px;
+    width: 470px;
+    border: none;
+    border-bottom: 3px solid black;
+    background: none;
+    display: block;
+    padding: 10px;
+
+
+}
+
+textarea {
+    height: 80px;
+    width: 470px;
+    border: 3px solid black;
+    background: none;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    height: 70px;
+    width: 490px;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+}
